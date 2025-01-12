@@ -43,13 +43,13 @@ const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url("/HeroSection.jpg");
+  background-image: url("./HeroSection.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 550px;
   /* border: 3px solid green; */
-  opacity: 0.4;
+  opacity: 1;
 
   /* Calque semi-transparent sur l'image */
   &::before {
@@ -60,7 +60,7 @@ const HeroContainer = styled.div`
     width: 100%;
     height: 100%;
     background-color: blue; /* Couleur de votre calque */
-    opacity: 0.9; /* Ajustez la transparence ici */
+    opacity: 0.2; /* Ajustez la transparence ici */
     z-index: 1; /* Place le calque au-dessus de l'image */
   }
 `;
