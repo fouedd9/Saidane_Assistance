@@ -6,7 +6,7 @@ export default function NavBar() {
     <Container>
       <LogoFlex>
         <Flex>
-          <Logo>SAIDANE ASSISTANCE</Logo>
+          <Logo>SAIDANE_ASSISTANCE</Logo>
         </Flex>
         <LinkStyle>
           <TextLink>Trouver un artisan</TextLink>
