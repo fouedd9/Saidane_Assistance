@@ -14,7 +14,7 @@ export default function index() {
     <div>
       <NavBar />
       <HeroSection />
-      <CategorySection />
+      <CategorySe---ction />
     </div>
   );
 }
